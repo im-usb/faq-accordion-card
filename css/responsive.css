@@ -1,0 +1,49 @@
+@media only screen and (max-width : 768px) {
+
+    .page-main .container {
+        margin: 148px auto;
+        width: 87%;
+        flex-direction: column;
+        background: #FFFFFF;
+    }
+    
+    .container .flex-item1{
+        display: none;
+    }
+
+    .container .flex-item2 .mobile-imgs {
+        display: block;
+        text-align: center;
+    }
+
+    .container .flex-item2 .mobile-imgs .women-mobile {
+        position: absolute;
+        top: 40px;
+    }
+
+    .container .flex-item2 .mobile-imgs .pattern-mobile {
+        position: relative;
+    }
+    
+    .container .flex-item1 .desktop-imgs .box-desktop {
+        display: none;
+    }
+
+    .container .flex-item2 {
+        width: 84%;
+        margin: 0 auto;
+    }
+
+    .container .flex-item2 .faqs {
+        width: 100%;
+        text-align: left;
+    }
+
+    .container .flex-item2 .faqs h1 {
+        text-align: center;
+    }
+
+    .container .flex-item2 .faqs .question {
+        font-size: 13px;
+    }
+}
