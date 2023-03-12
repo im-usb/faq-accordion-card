@@ -1,10 +1,14 @@
 @media only screen and (max-width : 768px) {
+    .page-main {
+        padding: 148px 0;
+    }
 
     .page-main .container {
-        margin: 148px auto;
+        margin: 0 auto;
         width: 87%;
         flex-direction: column;
         background: #FFFFFF;
+        border-radius: 28px;
     }
     
     .container .flex-item1{
@@ -32,6 +36,7 @@
     .container .flex-item2 {
         width: 84%;
         margin: 0 auto;
+        padding: 0 0 48px 0;
     }
 
     .container .flex-item2 .faqs {
