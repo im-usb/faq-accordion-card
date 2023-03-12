@@ -8,14 +8,14 @@ body {
     overflow: hidden;
 }
 
-.page-main {
+main {
     padding: 129px 0;
     background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
     background-repeat: no-repeat;
     height: 100vh;
 }
 
-.page-main .container {
+main .container {
     margin: 0 auto;
     max-width: 962px;
     width: 100%;
